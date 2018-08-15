@@ -9,10 +9,10 @@ type Query {
 
 // 2
 const resolvers = {
-  Query: {
-    info: () => `This is the API of a Hackernews Clone`
+    Query: {
+      info: () => null,
+    }
   }
-}
 
 // 3
 const server = new GraphQLServer({
